@@ -1,16 +1,5 @@
-# Railway Configuration
-# Este archivo puede ser usado por Railway para configuraciones específicas
-
-# Build Configuration
 [build]
   command = "npm install"
 
-# Start Configuration  
-[start]
-  command = "npm start"
-
-# Health Check
-[health]
-  path = "/health"
-  interval = 30s
-  timeout = 10s
+[deploy]
+  startCommand = "npm start"
